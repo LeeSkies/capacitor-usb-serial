@@ -1,6 +1,6 @@
 # capacitor-usb-serial
 
-A Capacitor v7 plugin that exposes the full functionality of
+A Capacitor v8 plugin that exposes the full functionality of
 [mik3y/usb-serial-for-android](https://github.com/mik3y/usb-serial-for-android) to
 JavaScript/TypeScript. Talk to USB‑to‑serial adapters and serial‑over‑USB devices
 (FTDI, Prolific PL2303, Silicon Labs CP210x, CH340/CH341, CDC/ACM) plugged into an
@@ -8,6 +8,9 @@ Android device over USB‑C / OTG — no root required.
 
 > **Platforms:** Android only. iOS and web are stubs that reject every call with
 > `UNSUPPORTED_PLATFORM` (Android is the only platform the underlying library supports).
+>
+> **Requirements:** Capacitor 8, Node.js 22+, Android `minSdk` 24, or iOS 15+ for the
+> unsupported-platform stub.
 
 ## Install
 
